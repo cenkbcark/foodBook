@@ -1,9 +1,6 @@
 # foodBook
 ```html
-<clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
-  Copy path
-</clipboard-copy>
-<div id="blob-path">src/index.js</div>
+I've tried to use different api for each pages.
 ```
 
 
