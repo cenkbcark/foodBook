@@ -32,7 +32,7 @@ class DetayCategoryViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let meal = sender as? Meal
         
-        //TODO: Ünlem kullanımından kaçın. Optional yap
+      
         if segue.identifier == "toMeal" {
             if let destination = segue.destination as? MealViewController {
                 destination.selectedMeal = meal
@@ -74,7 +74,7 @@ class DetayCategoryViewController: UIViewController {
             break
         }
     }
-    //TODO: Servis istekleri asla burada atılmaz. Bunun için Network class'ı oluştur.
+   
     func getCategory(from categoryName: String){
         let url = URL(string: "https://www.themealdb.com/api/json/v1/1/filter.php?c=\(categoryName)")
         
@@ -113,7 +113,7 @@ extension DetayCategoryViewController: UICollectionViewDelegate,UICollectionView
         let meal = mealList[indexPath.row]
         
         let cell = detayCollectionView.dequeueReusableCell(withReuseIdentifier: "FoodCell", for: indexPath) as! DetayCategoryCollectionViewCell
-        //TODO: cell içerisine config() gibi bir fonksiyon tanımla onu burada çağır.
+       
         
         cell.foodNameLbl.text = meal.strMeal
         cell.imageView.sd_setImage(with: URL(string: meal.strMealThumb!))
