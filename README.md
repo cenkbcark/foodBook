@@ -1,5 +1,4 @@
 # foodBook
-<h1>FoodBook</h1>
 
 ```html
 I've tried to use different api for each pages. All the data gets from API services then display on appropriate UI.
