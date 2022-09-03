@@ -1,6 +1,6 @@
 # foodBook
 ```html
-I've tried to use different api for each pages.
+I've tried to use different api for each pages. All the data gets from API services then display on appropriate UI.
 ```
 
 
