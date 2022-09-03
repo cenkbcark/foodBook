@@ -3,10 +3,15 @@
 I've tried to use different api for each pages. All the data gets from API services then display on appropriate UI.
 ```
 
+```html
+3rd Party Libraries
+SDWebImage
+```
 
-
-
-
+```html
+Usage
+It is powered by freeAPI! You should get your free developer API key from the site and start to build your own app!
+```
 
 <h1>Demo</h1>
 
